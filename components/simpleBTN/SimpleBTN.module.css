@@ -1,0 +1,16 @@
+.myBtn {
+  background: #ee624d;
+  border-radius: 8px;
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  /* font-weight: bold; */
+  font-size: 16px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 60px;
+}

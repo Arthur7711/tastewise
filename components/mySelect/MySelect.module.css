@@ -1,0 +1,10 @@
+.mySelect {
+  border: none;
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18px;
+  color: #062b47;
+  padding: 10px;
+  cursor: "pointer";
+}

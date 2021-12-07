@@ -1,0 +1,65 @@
+.content {
+  background: linear-gradient(32.2deg, #00a7c0 0%, #8bd6de 100%);
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  padding: 50px;
+  grid-gap: 10px;
+}
+.headP {
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  text-align: justify;
+  color: #ffffff;
+}
+.smallTitle {
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+.infoText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+}
+.formArea {
+  display: block;
+  -webkit-border-top-right-radius: 50px;
+  -webkit-border-bottom-left-radius: 50px;
+  -moz-border-radius-topright: 50px;
+  -moz-border-radius-bottomleft: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #ffffff;
+  box-shadow: 0px 30px 80px rgba(176, 204, 225, 0.15);
+  width: 500px;
+  height: 850px;
+  padding: 60px;
+  justify-self: center;
+}
+.inputText {
+  font-family: "Avenir LT Pro";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #062b47;
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

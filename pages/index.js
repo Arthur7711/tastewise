@@ -33,13 +33,13 @@ export default function Home() {
           </div>
           <p className={styles.headP}>Make data the hero ingredient</p>
           <p className={styles.text}>
-            Today's consumers want healthy, sustainable, and delicious food. Use
+            Todays consumers want healthy, sustainable, and delicious food. Use
             the new Tastewise SaaS solutions to meet their demands quickly with
             data-driven product ideas, compelling marketing campaigns, and
             laser-sharp sales strategies.
           </p>
           <p className={styles.smallTitle}>
-            The world's leading brands use Tastewise to:
+            The worlds leading brands use Tastewise to:
           </p>
           <div>
             {info.map((el, i) => (

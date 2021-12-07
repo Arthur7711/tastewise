@@ -47,7 +47,7 @@
   box-shadow: 0px 30px 80px rgba(176, 204, 225, 0.15);
   width: 500px;
   height: 850px;
-  padding: 60px;
+  padding: 30px 60px 60px 60px;
   justify-self: center;
 }
 .inputText {

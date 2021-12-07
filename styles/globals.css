@@ -1,10 +1,104 @@
+/* @font-face {
+  font-family: "Avenir LT Pro 45 Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 45 Book"),
+    url("./fonts/AvenirLTProBook.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 45 Book Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 45 Book Oblique"),
+    url("./fonts/AvenirLTProBookOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 55 Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 55 Roman"),
+    url("./fonts/AvenirLTProRoman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 55 Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 55 Oblique"),
+    url("./fonts/AvenirLTProOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 35 Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 35 Light"),
+    url("./fonts/AvenirLTProLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 35 Light Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 35 Light Oblique"),
+    url("./fonts/AvenirLTProLightOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 65 Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 65 Medium"),
+    url("./fonts/AvenirLTProMedium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 65 Medium Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 65 Medium Oblique"),
+    url("./fonts/AvenirLTProMediumOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("./fonts/AvenirLTProHeavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 85 Heavy Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy Oblique"),
+    url("./fonts/AvenirLTProHeavyOblique.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 95 Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 95 Black"),
+    url("./fonts/AvenirLTProBlack.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Avenir LT Pro 95 Black Oblique";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 95 Black Oblique"),
+    url("./fonts/AvenirLTProBlackOblique.woff") format("woff");
+} */
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Avenir LT Pro, Poppins;
 }
-
 a {
   color: inherit;
   text-decoration: none;

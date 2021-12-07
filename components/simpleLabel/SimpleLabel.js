@@ -1,12 +1,12 @@
 import React from "react";
 import TextField from "@mui/material/TextField";
+import styles from "./SimpleLabel.module.css";
 
 const Simplelabel = ({ title }) => {
   return (
     <label>
-      <p style={{ color: "#667B98" }}>{title}</p>
+      <p className={styles.par}>{title}</p>
       <TextField
-        // label={title}
         variant="standard"
         color="info"
         focused
@@ -15,7 +15,7 @@ const Simplelabel = ({ title }) => {
           background: "#F5FBFD",
           borderRadius: 8,
           width: "100%",
-          paddingTop:'10px'
+          paddingTop: "10px",
         }}
       />
     </label>

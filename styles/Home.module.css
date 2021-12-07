@@ -1,15 +1,30 @@
+@font-face {
+  font-family: "Avenir LT Pro 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
+}
 .content {
   background: linear-gradient(32.2deg, #00a7c0 0%, #8bd6de 100%);
   display: grid;
   grid-template-columns: 4fr 4fr 4fr;
   padding: 50px;
   grid-gap: 10px;
+  font-family: "Avenir LT Pro 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
 }
 .headP {
-  font-family: "Avenir LT Pro";
+  font-family: "Avenir LT Pro 85 Heavy";
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
   font-size: 64px;
+  font-weight: 700;
   color: #ffffff;
   text-align: center;
 }
@@ -22,8 +37,11 @@
   color: #ffffff;
 }
 .smallTitle {
-  font-family: "Avenir LT Pro";
+  font-family: "Avenir LT Pro 85 Heavy";
   font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
   font-weight: bold;
   font-size: 24px;
   color: #ffffff;
@@ -36,6 +54,11 @@
   color: #ffffff;
 }
 .formArea {
+  font-family: "Avenir LT Pro 85 Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
   display: block;
   -webkit-border-top-right-radius: 50px;
   -webkit-border-bottom-left-radius: 50px;
@@ -51,8 +74,11 @@
   justify-self: center;
 }
 .inputText {
-  font-family: "Avenir LT Pro";
+  font-family: "Avenir LT Pro 85 Heavy";
   font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 85 Heavy"),
+    url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
   font-weight: bold;
   font-size: 32px;
   text-align: center;

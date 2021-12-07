@@ -1,0 +1,8 @@
+.par {
+  color: #667b98;
+  font-family: "Avenir LT Pro 45 Book";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Avenir LT Pro 45 Book"),
+    url("../../styles/fonts/AvenirLTProBook.woff") format("woff");
+}

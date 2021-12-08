@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './MySelect.module.css'
+import styles from "./MySelect.module.css";
 
 export default function MySelect({ values }) {
   return (

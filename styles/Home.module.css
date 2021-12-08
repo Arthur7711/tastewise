@@ -23,7 +23,7 @@
   font-weight: normal;
   src: local("Avenir LT Pro 85 Heavy"),
     url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
-  font-size: 64px;
+  font-size: 4em;
   font-weight: 700;
   color: #ffffff;
   text-align: center;

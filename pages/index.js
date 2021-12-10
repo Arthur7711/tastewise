@@ -113,8 +113,8 @@ export default function Home() {
       </footer>
       <p className={styles.title}>Trusted by the industries top brands</p>
       <div className={styles.mainFlex}>
-        {SlideInfo.map((info) => (
-          <div>
+        {SlideInfo.map((info, i) => (
+          <div key={i}>
             <SlideItem
               logo={info.logo}
               text={info.text}

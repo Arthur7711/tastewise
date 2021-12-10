@@ -6,7 +6,7 @@ import Simplelabel from "../components/simpleLabel/SimpleLabel";
 import SimpleBTN from "../components/simpleBTN/SimpleBTN";
 import logos from "../imgs/logos.png";
 import groups from "../imgs/GroupImgs.png";
-import SlideItem from "../components/slideItem/SlideItem";
+import SlideItem from "../components/Slideitem/SlideItem";
 import pepsico from "../imgs/pepsico.png";
 import freshly from "../imgs/freshly.png";
 import campbells from "../imgs/campbells.png";
@@ -15,6 +15,21 @@ import freshlyavatar from "../imgs/freshlyavatar.png";
 import campbellsavatar from "../imgs/campbellsavatar.png";
 
 export default function Home() {
+  const info = [
+    "Eliminate guesswork to discover new ingredients & concepts",
+    "Expedite research & decision making processes by 10x",
+    "Find the right audience for each product",
+    "Identify sales opportunities in foodservice",
+    "Develop successful marketing campaigns",
+  ];
+  const labelInfo = [
+    "First name",
+    "Last name",
+    "Company",
+    "Phone number",
+    "Work email",
+    "How did you hear about us?",
+  ];
   const SlideInfo = [
     {
       logo: pepsico,

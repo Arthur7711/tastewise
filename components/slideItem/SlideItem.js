@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Slideitem.module.css";
+import styles from "./SlideItem.module.css";
 import Image from "next/image";
 
 const SlideItem = ({ logo, text, avatar, name, description }) => {

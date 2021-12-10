@@ -6,6 +6,13 @@ import Simplelabel from "../components/simpleLabel/SimpleLabel";
 import SimpleBTN from "../components/simpleBTN/SimpleBTN";
 import logos from "../imgs/logos.png";
 import groups from "../imgs/GroupImgs.png";
+import SlideItem from "../components/Slideitem/SlideItem";
+import pepsico from "../imgs/pepsico.png";
+import freshly from "../imgs/freshly.png";
+import campbells from "../imgs/campbells.png";
+import pepsicoavatar from "../imgs/pepsicoavatar.png";
+import freshlyavatar from "../imgs/freshlyavatar.png";
+import campbellsavatar from "../imgs/campbellsavatar.png";
 
 export default function Home() {
   const info = [
@@ -23,6 +30,43 @@ export default function Home() {
     "Work email",
     "How did you hear about us?",
   ];
+  const SlideInfo = [
+    {
+      logo: pepsico,
+      text: "With partners in digital transformation like Tastewise, we are able to deliver innovative opportunities that surprise and delight our consumers, creating more smiles with every sip and every bite.",
+      logoAvatar: pepsicoavatar,
+      name: "Ramon Laguarta",
+      description: "Chairman & Chief Executive Officer",
+    },
+    {
+      logo: freshly,
+      text: "Now, what used to take 3 days of painstaking research takes 3 hours of data-driven analysis.",
+      logoAvatar: freshlyavatar,
+      name: "Rachel Waynberg",
+      description: "Senior Manager, Meal Innovation",
+    },
+    {
+      logo: campbells,
+      text: "Our team is using Tastewise to identify beverage and cooking trends, and bring them to life in product and recipe innovation. We've had really great success stories!",
+      logoAvatar: campbellsavatar,
+      name: "Maria Gamble",
+      description: "Director, Culinary Innovation Hub",
+    },
+  ];
+  const slideLogoInfo = [pepsico, freshly, campbells];
+  const slideText = [
+    "With partners in digital transformation like Tastewise, we are able to deliver innovative opportunities that surprise and delight our consumers, creating more smiles with every sip and every bite.",
+    "Now, what used to take 3 days of painstaking research takes 3 hours of data-driven analysis.",
+    "Our team is using Tastewise to identify beverage and cooking trends, and bring them to life in product and recipe innovation. We've had really great success stories!",
+  ];
+  const slideLogoAvatarInfo = [pepsicoavatar, freshlyavatar, campbellsavatar];
+  const slideName = ["Ramon Laguarta", "Rachel Waynberg", "Maria Gamble"];
+  const slideDescription = [
+    "Chairman & Chief Executive Officer",
+    "Senior Manager, Meal Innovation",
+    "Director, Culinary Innovation Hub",
+  ];
+
   return (
     <>
       <Header />
@@ -67,6 +111,20 @@ export default function Home() {
       <footer className={styles.foot}>
         <Image alt="footerLogos" src={logos} />
       </footer>
+      <p className={styles.title}>Trusted by the industries top brands</p>
+      <div className={styles.mainFlex}>
+        {SlideInfo.map((info) => (
+          <div>
+            <SlideItem
+              logo={info.logo}
+              text={info.text}
+              avatar={info.logoAvatar}
+              name={info.name}
+              description={info.description}
+            />
+          </div>
+        ))}
+      </div>
     </>
   );
 }

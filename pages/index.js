@@ -6,7 +6,7 @@ import Simplelabel from "../components/simpleLabel/SimpleLabel";
 import SimpleBTN from "../components/simpleBTN/SimpleBTN";
 import logos from "../imgs/logos.png";
 import groups from "../imgs/GroupImgs.png";
-import SlideItem from "../components/Slideitem/SlideItem";
+import SlideItem from "../components/slideItem/SlideItem";
 import pepsico from "../imgs/pepsico.png";
 import freshly from "../imgs/freshly.png";
 import campbells from "../imgs/campbells.png";
@@ -15,21 +15,6 @@ import freshlyavatar from "../imgs/freshlyavatar.png";
 import campbellsavatar from "../imgs/campbellsavatar.png";
 
 export default function Home() {
-  const info = [
-    "Eliminate guesswork to discover new ingredients & concepts",
-    "Expedite research & decision making processes by 10x",
-    "Find the right audience for each product",
-    "Identify sales opportunities in foodservice",
-    "Develop successful marketing campaigns",
-  ];
-  const labelInfo = [
-    "First name",
-    "Last name",
-    "Company",
-    "Phone number",
-    "Work email",
-    "How did you hear about us?",
-  ];
   const SlideInfo = [
     {
       logo: pepsico,
@@ -52,19 +37,6 @@ export default function Home() {
       name: "Maria Gamble",
       description: "Director, Culinary Innovation Hub",
     },
-  ];
-  const slideLogoInfo = [pepsico, freshly, campbells];
-  const slideText = [
-    "With partners in digital transformation like Tastewise, we are able to deliver innovative opportunities that surprise and delight our consumers, creating more smiles with every sip and every bite.",
-    "Now, what used to take 3 days of painstaking research takes 3 hours of data-driven analysis.",
-    "Our team is using Tastewise to identify beverage and cooking trends, and bring them to life in product and recipe innovation. We've had really great success stories!",
-  ];
-  const slideLogoAvatarInfo = [pepsicoavatar, freshlyavatar, campbellsavatar];
-  const slideName = ["Ramon Laguarta", "Rachel Waynberg", "Maria Gamble"];
-  const slideDescription = [
-    "Chairman & Chief Executive Officer",
-    "Senior Manager, Meal Innovation",
-    "Director, Culinary Innovation Hub",
   ];
 
   return (

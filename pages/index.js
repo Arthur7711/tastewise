@@ -6,7 +6,7 @@ import Simplelabel from "../components/simpleLabel/SimpleLabel";
 import SimpleBTN from "../components/simpleBTN/SimpleBTN";
 import logos from "../imgs/logos.png";
 import groups from "../imgs/GroupImgs.png";
-import SlideItem from "../components/Slideitem/SlideItem";
+import SlideItem from "../components/slideItem/SlideItem";
 import pepsico from "../imgs/pepsico.png";
 import freshly from "../imgs/freshly.png";
 import campbells from "../imgs/campbells.png";

@@ -36,7 +36,9 @@
 .right > * {
   margin-left: 40px;
 }
-
+.burgerMenu {
+  display: none;
+}
 @media (max-width: 1030px) {
   .right > * {
     margin-left: 20px;
@@ -52,5 +54,16 @@
   }
   .imgArea {
     display: none;
+  }
+}
+@media (max-width: 680px) {
+  .left {
+    display: none;
+  }
+  .burgerMenu {
+    display: block;
+  }
+  .header {
+    padding: 0 2em;
   }
 }

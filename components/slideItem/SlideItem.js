@@ -6,7 +6,7 @@ const SlideItem = ({ logo, text, avatar, name, description }) => {
   return (
     <>
       <div className={styles.logo}>
-        <Image src={logo && logo} alt="logo" />
+        <Image src={logo} alt="logo" />
       </div>
       <div className={styles.triangleDiv}>
         <div className={styles.messageDiv}>
@@ -16,7 +16,7 @@ const SlideItem = ({ logo, text, avatar, name, description }) => {
       </div>
       <div className={styles.flexBox}>
         <div className={styles.avatar}>
-          <Image src={avatar && avatar} alt="avatar" />
+          <Image src={avatar} alt="avatar" />
         </div>
         <div className={styles.userInfo}>
           <strong>{name}</strong>

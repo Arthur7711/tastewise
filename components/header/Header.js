@@ -4,21 +4,22 @@ import logo from "../../imgs/logo.png";
 import Image from "next/image";
 import MySelect from "../mySelect/MySelect";
 import SimpleBTN from "../simpleBTN/SimpleBTN";
+import BurgerMenu from "../burgerMenu/BurgerMenu";
 
 export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.left}>
-        <div
-          className={styles.imgArea}
-          // style={{ height: 100, display: "flex", alignItems: "center" }}
-        >
+        <div className={styles.imgArea}>
           <Image src={logo} alt="logo" />
         </div>
         <MySelect values={["Solutions", 2, 3]} />
         <MySelect values={["Resources", 2, 3]} />
         <MySelect values={["About", 2, 3]} />
         <p>Pricing</p>
+      </div>
+      <div className={styles.burgerMenu}>
+        <BurgerMenu />
       </div>
       <div className={styles.right}>
         <div

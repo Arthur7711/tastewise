@@ -14,7 +14,6 @@
   position: relative;
   width: 440px;
   margin: 20px 0;
-  /* height: 280px; */
 }
 .messageDiv {
   width: 440px;
@@ -52,4 +51,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+@media (max-width: 560px) {
+  .triangleDiv {
+    position: relative;
+    width: 320px;
+    margin: 20px 0;
+  }
+  .messageDiv {
+    width: 320px;
+    height: 200px;
+  }
+  .messageDiv > p {
+    font-size: 14px;
+    margin: 0 10px;
+  }
 }

@@ -3,7 +3,6 @@
   border-radius: 8px;
   font-family: "Avenir LT Pro";
   font-style: normal;
-  /* font-weight: bold; */
   font-size: 16px;
   text-transform: uppercase;
   display: flex;
@@ -13,4 +12,16 @@
   border: none;
   cursor: pointer;
   height: 60px;
+}
+
+@media (max-width: 600px) {
+  .myBtn {
+    height: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .myBtn {
+    height: 40px;
+    font-size: 12px;
+  }
 }

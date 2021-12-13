@@ -114,6 +114,44 @@
     grid-template-areas:
       "texted myLog "
       "myForm myForm";
-    grid-template-columns: 6fr 6fr;
+    grid-template-columns: 8fr 4fr;
+  }
+  .headP {
+    font-size: 3em;
+  }
+}
+@media (max-width: 560px) {
+  .content {
+    grid-template-areas:
+      "texted texted "
+      "myForm myForm";
+    grid-template-columns: 1fr;
+  }
+  .secondLogo {
+    display: none;
+  }
+  .formArea {
+    width: 300px;
+    height: auto;
+    padding: 10px 30px 30px 30px;
+  }
+  .inputText {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .headP {
+    font-size: 24px;
+  }
+  .eachItem {
+    justify-items: center;
+    width: 320px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .content {
+    padding: 20px 10px;
   }
 }

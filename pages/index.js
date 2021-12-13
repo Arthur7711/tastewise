@@ -56,7 +56,7 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header />   
       <main className={styles.content}>
         <div className={styles.textArea}>
           <div>
@@ -101,7 +101,7 @@ export default function Home() {
       <p className={styles.title}>Trusted by the industries top brands</p>
       <div className={styles.mainFlex}>
         {SlideInfo.map((info, i) => (
-          <div key={i}>
+          <div className={styles.eachItem} key={i}>
             <SlideItem
               logo={info.logo}
               text={info.text}

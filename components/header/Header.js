@@ -9,7 +9,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.left}>
-        <div style={{ height: 100, display: "flex", alignItems: "center" }}>
+        <div
+          className={styles.imgArea}
+          // style={{ height: 100, display: "flex", alignItems: "center" }}
+        >
           <Image src={logo} alt="logo" />
         </div>
         <MySelect values={["Solutions", 2, 3]} />
@@ -35,7 +38,7 @@ export default function Header() {
               d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
             />
           </svg>
-          <p>Log in</p>
+          <p style={{ wordWrap: "break-word", whiteSpace: "nowrap" }}>Log in</p>
         </div>
         <SimpleBTN title="Get started" />
       </div>

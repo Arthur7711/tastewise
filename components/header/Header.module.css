@@ -11,6 +11,11 @@
   font-size: 18px;
   padding: 0 5rem;
 }
+.imgArea {
+  height: 100;
+  display: flex;
+  align-items: center;
+}
 .left {
   display: flex;
   justify-content: space-around;
@@ -24,6 +29,28 @@
   justify-content: space-around;
   align-items: center;
 }
+.right > p {
+  word-wrap: break-word;
+  white-space: nowrap;
+}
 .right > * {
   margin-left: 40px;
+}
+
+@media (max-width: 1030px) {
+  .right > * {
+    margin-left: 20px;
+  }
+  .left > * {
+    margin-right: 20px;
+  }
+}
+@media (max-width: 900px) {
+  .header {
+    font-size: 16px;
+    padding: 0;
+  }
+  .imgArea {
+    display: none;
+  }
 }

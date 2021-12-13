@@ -8,6 +8,7 @@
 .content {
   background: linear-gradient(32.2deg, #00a7c0 0%, #8bd6de 100%);
   display: grid;
+  grid-template-areas: "texted myForm myLog";
   grid-template-columns: 4fr 4fr 4fr;
   padding: 50px;
   grid-gap: 10px;
@@ -16,6 +17,9 @@
   font-weight: normal;
   src: local("Avenir LT Pro 85 Heavy"),
     url("../styles/fonts/AvenirLTProHeavy.woff") format("woff");
+}
+.textArea {
+  grid-area: texted;
 }
 .headP {
   font-family: "Avenir LT Pro 85 Heavy";
@@ -54,6 +58,7 @@
   color: #ffffff;
 }
 .formArea {
+  grid-area: myForm;
   font-family: "Avenir LT Pro 85 Heavy";
   font-style: normal;
   font-weight: normal;
@@ -92,10 +97,23 @@
 .mainFlex {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .title {
   text-align: center;
   font-weight: 900;
   font-size: 42px;
   margin: 100px 0;
+}
+.secondLogo {
+  grid-area: myLog;
+}
+
+@media (max-width: 1030px) {
+  .content {
+    grid-template-areas:
+      "texted myLog "
+      "myForm myForm";
+    grid-template-columns: 6fr 6fr;
+  }
 }

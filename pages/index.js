@@ -91,7 +91,7 @@ export default function Home() {
             <SimpleBTN title="request a demo" WIDTH="100%" />
           </div>
         </div>
-        <div>
+        <div className={styles.secondLogo}>
           <Image alt="groups" src={groups} />
         </div>
       </main>
